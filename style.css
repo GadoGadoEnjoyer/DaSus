@@ -1,0 +1,568 @@
+.html{
+    height: 100%;
+}
+.TitlePage{
+    position:absolute;
+    background-color: black;
+    width : 100%;
+    height: 200px;
+    margin-top: -20px;
+    margin-left: -8px;
+}
+.Title{
+    margin-top:35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: yellow;
+}
+.Main{
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    width:100%;
+    height: 409.5%;
+}
+.loginPage{
+    border: solid;
+    color: yellow;
+    position: absolute;
+    border-width: 2px;
+    width:10%;
+    margin-left:-8%;
+    left:50%;
+    margin-top:-8%;
+    top:50%;
+    padding: 30px;
+
+    opacity: 1;
+    -webkit-transition: opacity 1000ms linear;
+    transition: opacity 1000ms linear;
+    
+}
+#ch{
+    position:absolute;
+    height: 200px;
+    left:800px;
+}
+#Welcome{
+    color:white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Main2{
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    width:100%;
+    height: 600%;
+}
+#Card1{
+    position: relative;
+    float: left;
+    width: 20%;
+    height:100%;
+    color: yellow;
+    border: solid;
+    margin:6.4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;      
+}
+#Card1:hover{
+    background-color: yellow;
+}
+#Card2{
+    position: relative;
+    float: left;
+    width: 20%;
+    height:100%;
+    color: yellow;
+    border: solid;
+    margin:6.4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;      
+}
+#Card2:hover{
+    background-color: yellow;
+}
+#Card3{
+    position: relative;
+    float: left;
+    width: 20%;
+    height:100%;
+    color: yellow;
+    border: solid;
+    margin:6.4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;      
+}
+#Card3:hover{
+    background-color: yellow;
+}
+#c1{
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-image: url('AbnoLogo.png');
+    width:105%;
+    height:90%;
+    position: absolute;
+    right:1px;
+    bottom:1px;
+}
+#Card1:hover #c1{
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-image: url('AbnoLogo2.png');
+}
+#c1text{
+    color:white;
+    position: absolute;
+    left:25%;
+    bottom:75%;
+}
+#Card1:hover #c1text{
+    color:black;
+}
+#c1:hover #Card1{
+    background-color: yellow;
+}
+#c2{
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-image: url('SiteLogo.png');
+    width:115%;
+    height:90%;
+    position: absolute;
+    right:1px;
+    top:160px; 
+}
+#Card2:hover #c2{
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-image: url('SiteLogo2.png'); 
+}
+#c2text{
+    color:white;
+    position: absolute;
+    left:25%;
+    bottom:100%;
+}
+#Card2:hover #c2text{
+    color:black;
+}
+#c3{
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-image: url('Director-Logo.png');
+    width:105%;
+    height:90%;
+    position: absolute;
+    right:1px;
+    bottom:-100px; 
+}
+#Card3:hover #c3{
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-image: url('Director-Logo2.png'); 
+}
+#c3text{
+    color:white;
+    position: absolute;
+    left:25%;
+    bottom:100%;
+}
+#Card3:hover #c3text{
+    color:black;
+}
+.Column{
+    height:500px;
+    width:90%;
+    position: absolute;
+    margin-left:70px;
+    bottom:600px;
+}
+.AbnoList{
+    color: white;
+    font-size: 30px;
+}
+.Test{
+    color: white;
+    border: dotted;
+    width:1900px;
+}
+.Photo{
+    position: absolute;
+    max-width:350px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    left:1268px;
+    top:400px;
+}
+.SideDesc{
+    position: absolute;
+    background-color: gray;
+    width:302px;
+    height:448px;
+    left:965px;
+    top:450px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.AbnoName{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font:bold;
+    left:1326px;
+    top:250px;
+}
+.AbnoDesc{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    padding-left:20px;
+    padding-top:150px;
+    max-width: 750px;
+}
+.wallpaper{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
+
+    z-index: -99999;
+    pointer-events: none;
+    overflow-x: auto;
+    background-color: black;
+}
+#Banjarmasin{
+    position: absolute;
+    top:782px;
+    left:1480px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+}
+#Banjarmasin:hover ~ #BanjarBox{
+    opacity: 100%;
+}
+#BanjarBox{
+    opacity: 0%;
+    position: absolute;
+    top:672px;
+    left:1435px;
+    width:100px;
+    height: 100px;
+    color: black;
+    border: solid;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#Quezon{
+    position: absolute;
+    top:680px;
+    left:1520px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+}
+#Quezon:hover ~ #QuezBox{
+    opacity: 100%;
+}
+#QuezBox{
+    opacity: 0%;
+    position: absolute;
+    top:575px;
+    left:1480px;
+    width:100px;
+    height: 100px;
+    color: black;
+    border: solid;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#Seoul{
+    position: absolute;
+    top:538px;
+    left:1550px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+}
+#Seoul:hover ~ #SeoulBox{
+    opacity: 100%;
+}
+#SeoulBox{
+    opacity: 0%;
+    position: absolute;
+    top:429px;
+    left:1510px;
+    width:100px;
+    height: 100px;
+    color: yellow;
+    border: solid;
+    background-color: rgb(255, 112, 112);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#Poznan{
+    position: absolute;
+    top:445px;
+    left:969px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+}
+#Poznan:hover ~ #PozBox{
+    opacity: 100%;
+}
+#PozBox{
+    opacity: 0%;
+    position: absolute;
+    top:338px;
+    left:929px;
+    width:100px;
+    height: 100px;
+    color: yellow;
+    border: solid;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#Brest{
+    position: absolute;
+    top:463px;
+    left:869px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+}
+#Brest:hover ~ #BreBox{
+    opacity: 100%;
+}
+#BreBox{
+    opacity: 0%;
+    position: absolute;
+    top:353px;
+    left:829px;
+    width:100px;
+    height: 100px;
+    color: black;
+    border: solid;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#Safi{
+    position: absolute;
+    top:580px;
+    left:848px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+}
+#Safi:hover ~ #SafiBox{
+    opacity: 100%;
+}
+#SafiBox{
+    opacity: 0%;
+    position: absolute;
+    top:478px;
+    left:808px;
+    width:100px;
+    height: 100px;
+    color: black;
+    border: solid;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#Basrah{
+    position: absolute;
+    top:573px;
+    left: 1133px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+}
+#Basrah:hover ~ #BasBox{
+    opacity: 100%;
+}
+#BasBox{
+    opacity: 0%;
+    position: absolute;
+    top:457px;
+    left:1093px;
+    width:100px;
+    height: 100px;
+    color: black;
+    border: solid;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#Curitiba{
+    position: absolute;
+    top:917px;
+    left: 626px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+}
+#Curitiba:hover ~ #CurBox{
+    opacity: 100%;
+}
+#CurBox{
+    opacity: 0%;
+    position: absolute;
+    top:805px;
+    left:587px;
+    width:100px;
+    height: 100px;
+    color: black;
+    border: solid;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#SanAntonio{
+    position: absolute;
+    top:572px;
+    left: 376px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    
+}
+#SanAntonio:hover ~ #SanBox{
+    opacity: 100%;
+}
+#SanBox{
+    opacity: 0%;
+    position: absolute;
+    top:457px;
+    left:339px;
+    width:100px;
+    height: 100px;
+    color: white;
+    border: solid;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#Warning{
+    overflow: hidden;
+    position: fixed;
+    border-style:solid;
+    border-color:red;
+    background-color: red;
+    border-width: 1px;
+    color:yellow;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 200px;
+    font-size: 70px;
+    width: 180%;
+    height: 20%;
+    left:-100px;
+    top : 400px;
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);    
+    animation-name: slide;
+    animation-duration:2.5s;
+    opacity: 0;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    z-index: 1000000;
+
+}
+@keyframes slide{
+   0%{left:-1300px}
+   0%{opacity: 0}
+   50%{opacity: 1}
+   75%{left: 0px}
+   100%{left: 0px}
+   80%{opacity: 1}
+   100%{opacity: 0}
+}
+#Warning2{
+    overflow: hidden;
+    position: fixed;
+    border-style:solid;
+    border-color:red;
+    background-color: red;
+    border-width: 1px;
+    color:yellow;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 200px;
+    font-size: 70px;
+    width: 180%;
+    height: 20%;
+    left:-100px;
+    top : 400px;
+    -webkit-transform: skewY(20deg);
+    -moz-transform: skewY(20deg);
+    -ms-transform: skewY(20deg);
+    -o-transform: skewY(20deg);
+    transform: skewY(20deg);    
+    animation-name: slide2;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-iteration-count: 1;
+    z-index: 100000;
+
+}
+@keyframes slide2{
+   0%{left:-1300px}
+   0%{opacity: 0}
+   75%{opacity: 1}
+   75%{left: -1000px}
+   100%{left: -1000px}
+   70%{opacity: 1}
+   100%{opacity: 0}
+}
+.SiteDescription{
+    color:white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.SiteFoto{
+    position: absolute;
+    left: 69%;
+    bottom:-330%;
+    z-index: 10;
+    border: solid 3px #BBBBBB;
+}
